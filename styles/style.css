@@ -2,6 +2,10 @@ div {
   border: 1px solid red
 }
 
+section {
+  margin-top: 100px;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -27,6 +31,7 @@ div {
 
 .header__title {
   width: 730px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: 600;
   justify-items: center;
@@ -39,14 +44,17 @@ div {
   width: 388px;
   position: absolute;
   font-size: 18px;
+  line-height: 25px;
   font-weight: normal;
   bottom: 30px;
   left: 64px;
+  z-index: 3;
 }
 
 .header__link {
   left: 64px;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__link:after {
@@ -71,10 +79,120 @@ div {
   background-color: #2f80ed;
 }
 
-.flex-row_header {
+.flex-row {
   display: flex;
+}
+
+.flex-row_content {
   flex-direction: column;
   justify-content: space-around;
+}
+
+.flex-row_header {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-row_two-columns {
+  justify-content: space-between;
+}
+
+.flex-row_description {
+  flex-direction: column;
+}
+
+.description {
+  display: flex;
+}
+
+.two-columns {
+  width: 80%;
+  margin: auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  line-height: 1.2;
+}
+
+.flex-row_main-text {
+  flex-direction: column;
+  align-content: stretch;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 30px;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
+}
+
+.two-columns__span-accent {
+  height: 34px;
+  font-size: 18;
+  font-weight: 600;
+}
+
+.flex-row_digits {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.flex-row__table {
+  justify-content: space-between;
+}
+
+.table {
+  width: 1100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.table__cell {
+  padding-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 
