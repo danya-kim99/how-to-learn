@@ -184,7 +184,7 @@
   position: relative;
   margin: 0;
   background-color: #f2f2f2;
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -266,6 +266,10 @@
   z-index: 0;
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .footer {
