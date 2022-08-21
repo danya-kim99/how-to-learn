@@ -282,9 +282,12 @@
   align-items: stretch;
 }
 
-.footer__column_content_copyright {
+.footer_column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -295,11 +298,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
