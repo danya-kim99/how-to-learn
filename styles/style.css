@@ -95,6 +95,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   font-size: 18px;
   font-weight: normal;
