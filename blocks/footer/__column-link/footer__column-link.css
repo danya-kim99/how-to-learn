@@ -4,4 +4,13 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition: opacity 1s;
+}
+
+.footer__column-link:visited {
+  color: #fff;
+}
+
+.footer__column-link:hover {
+  opacity: 0.3;
 }

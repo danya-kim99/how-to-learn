@@ -5,8 +5,17 @@
   margin: 0 0 0 48px;
   font-style: normal;
   text-decoration: none;
+  transition: opacity 1s;
 }
 
 .khan__buy-link:after {
   content: '\2192';
+}
+
+.khan__buy-link:visited {
+  color: #606;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.3;
 }
