@@ -2,7 +2,7 @@
   color: #2f80ed;
   text-decoration: none;
   transition: opacity 1s;
-};
+}
 
 .header__link:visited {
   color: #606;

@@ -1,0 +1,11 @@
+.resources__link {
+  transition: opacity 1s;
+}
+
+.resources__link:visited {
+  color: #606;
+}
+
+.resources__link:hover {
+  opacity: 0.3;
+}
